@@ -1,0 +1,29 @@
+extend layout
+include footer.pug
+
+block title 
+ title My Posts
+block css
+  link#lightcss(href='/css/main.css', rel='stylesheet')
+block js
+  script(src='/js/myPost.js')
+block status
+  .nav_Log
+    .nav_person
+      p= name 
+    .nav_logout
+      a(href='/logout') Logut
+
+block left
+  include leftNav.pug
+block content
+  #sort
+    button#sort_mytime By time
+    button#sort_mylike By likes
+  include loginPosts.pug
+block footer 
+  +footer('/myposts')
+  
+      
+    
+      

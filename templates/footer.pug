@@ -1,0 +1,11 @@
+mixin footer(url)
+ if page 
+      nav.footer
+       if page >= 2
+           a(href= `${url}`+"?page="+ (page-1))  
+             #prev.iconfont.icon-shangyiyehoutuifanhui-xianxingyuankuang
+       span.page= page
+       if hasMorePages
+          a(href= `${url}`+"?page="+ (page+1))  
+           #next.iconfont.icon-xiayiye
+ 

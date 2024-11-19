@@ -1,0 +1,32 @@
+extend layout
+
+block title 
+  title Delete Account
+block css
+  link#lightcss(href='/css/main.css', rel='stylesheet')
+block js
+  script(src='/js/deleteAccount.js')
+block status
+  .nav_Log
+    .nav_person
+      p= name 
+    .nav_logout
+      a(href='/logout') Logut
+
+block left
+  include leftNav.pug
+
+block content
+ div#deleteAccount_wrapper
+      div#banner_deleteAccount
+      #confirpassw_div
+        label(for='password') Password:
+        input#password(type='password', name='password', required='')
+        button#confirpassw_btn Next
+      button#confirdelete_btn(style='display: none;') Yes
+      button#canceldelete_btn(style='display: none;') No
+
+  
+      
+    
+      

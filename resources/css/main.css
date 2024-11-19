@@ -1,0 +1,1150 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Permanent+Marker&family=Pixelify+Sans:wght@400;500&display=swap');
+
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Pixelify Sans', sans-serif;
+*/
+body {
+  margin: 0;
+  background-color: #e8a1a1;
+
+}
+
+#header {
+    width: 100%;
+    height: 270px;
+    position: relative;
+    margin-bottom: -55px; 
+
+}
+
+#header video {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+  
+#header_logo{
+    
+    font-size: 40px;
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    color: rgb(251, 251, 251);
+    margin-top: -25pxs;
+    margin-left: -73px;
+    z-index: 1;
+}
+
+#header h1{
+    font-family: 'Pacifico', cursive;
+    position: absolute;
+    color: #ffffff;
+    top: 11%;
+    left: 46%;
+    margin-top: -25pxs;
+    margin-left: -30px;
+    z-index: 1;
+}
+  
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 55px;
+    background-color: rgb(255, 240, 255);
+    /* background-color: azure; */
+    /* margin: 0 auto; */
+    background:url('../images/bodyback.jpg');
+    backdrop-filter: blur(5px);
+}
+
+#nav_logo {
+  font-size: 35px;
+  float: left;
+  margin-right: auto;
+}
+
+.nav_main{
+  display: flex;
+  width: 30%;
+  left: 30%;
+  align-items: center;
+}
+
+.nav_main div {
+  width: 110px;
+  height: 100%;
+  text-align: center;
+  line-height: 57px;
+  float: left;
+  font-size: 1.5em;
+  margin: 0 11px;
+  position: relative;
+}
+
+.nav_main div:hover {
+  color:rgb(237, 243, 243);
+}
+
+
+.nav_noLog{
+  display: flex;
+  width: 440px;
+  height: 100%;
+  float: left;
+  margin-left: 30px;
+}
+
+.nav_Log{
+  display: flex;
+  width: 440px;
+  height: 100%;
+  float: left;
+  margin-left: 30px;
+}
+
+.nav_person{
+  width: 70%;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.nav_person p{
+
+margin: 5%;
+margin-left: 50%;
+color: #32514f;
+font-family: 'Pixelify Sans', sans-serif;
+}
+
+.nav_logout{
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  border-radius: 17px;
+  line-height: 40px;
+  font-size: 25px;
+  float: left;
+  font-family: 'Pixelify Sans', sans-serif;
+  backdrop-filter: blur(10px);
+  border: solid rgba(255,255,255,5);
+  margin-top: 6px;
+}
+
+.nav_logout a{
+  text-decoration: none;
+  color: #0c0808;
+}
+
+.nav_login{
+  width: 110px;
+  height: 40px;
+  text-align: center;
+  border-radius: 17px;
+  line-height: 40px;
+  font-size: 25px;
+  float: left;
+  margin-left: 150px;
+  font-family: 'Pixelify Sans', sans-serif;
+  backdrop-filter: blur(10px);
+  border: solid rgba(255,255,255,5);
+  margin-top: 6px;
+  margin-left: 40%;
+}
+
+.nav_login a{
+  text-decoration: none;
+  color: #0c0808;
+}
+
+.nav_register{
+
+  width: 120px;
+  height: 40px;
+  text-align: center;
+  border-radius: 17px;
+  line-height: 40px;
+  font-size: 25px;
+  float: left;
+  font-family: 'Pixelify Sans', sans-serif;
+  backdrop-filter: blur(10px);
+  border: solid rgba(255,255,255,5);
+  margin-top: 6px;
+  margin-left:10px;
+
+}
+.nav_register a{
+  text-decoration: none;
+  color: #0c0808;
+}
+/* ------NoLogin-------- */
+#main {
+  width: 100%;
+  display: flex;
+  margin: 0;
+}
+
+#main .main-left {
+  width: 20%;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+  background:url('../images/bodyback.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: solid rgb(227, 235, 235);
+  
+}
+
+.main-left div{
+
+  width: 100%;
+  height: 5%;
+  background-color:transparent;
+  backdrop-filter: blur(20px);
+  text-align: center;
+  font-size: 1.2em;
+  font-family: 'Pacifico', cursive;
+  border: solid white;
+}
+
+.main-left a{
+  text-decoration: none;
+  color: white;
+}
+
+.main-left .post-manage a{ 
+
+color: #000;
+
+} 
+
+.main-left .change-name a{
+  color: #000;
+
+} 
+
+.main-left .change-password a{
+ color: #000;
+} 
+
+.main-left .delete-account a{
+  color: #000;
+ } 
+ 
+
+#main .main {
+  width: 60%;
+  margin: 0 auto;
+  background:url('../images/mainback.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(10px);
+  border: solid rgb(227, 235, 235);
+}
+
+#main .main-right {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  min-height: 100vh;
+  background:url('../images/bodyback.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  border: solid rgb(227, 235, 235);
+}
+ 
+
+.post_form{
+  width: 50%;
+  height: 150px;
+  margin-top: 6%;
+  margin-left: 25%;
+}
+
+.post_form input{
+  margin-top: 20px;
+  width: 90%;
+  height: 100px;
+}
+
+.post_form #submit {
+  font-size: 2em; 
+  margin-left: 15px;
+}
+
+.post_form #submit:hover{
+
+  color: #eee;
+}
+
+
+
+#messages{
+
+ /* background-color: brown; */
+ margin-top: 10%;
+} 
+
+/* #sort_time{
+  float: left;
+  position: absolute;
+  left: 75%;
+  background-color:transparent;
+  backdrop-filter: blur(20px);
+  font-size: large;
+  color: #eee;
+}
+
+#sort_like{
+  float: left;
+  position: absolute;
+  
+  margin-left: 40px;
+  background-color:transparent;
+  backdrop-filter: blur(20px);
+  font-size: large;
+  color: #eee;
+}
+
+#sort_mytime{
+  float: left;
+  position: absolute;
+  left: 75%;
+  background-color:transparent;
+  backdrop-filter: blur(20px);
+  font-size: large;
+  color: #eee;
+}
+
+#sort_mylike{
+  float: left;
+  position: absolute;
+  left: 80%;
+  margin-left: 40px;
+  background-color:transparent;
+  backdrop-filter: blur(20px);
+  font-size: large;
+  color: #eee;
+}
+
+#sort_timeNo{
+  float: left;
+  position: absolute;
+  left: 75%;
+  background-color:transparent;
+  backdrop-filter: blur(20px);
+  font-size: large;
+  color: #eee;
+}
+
+#sort_likeNo{
+  float: left;
+  position: absolute;
+  left: 80%;
+  margin-left: 40px;
+  background-color:transparent;
+  backdrop-filter: blur(20px);
+  font-size: large;
+  color: #eee;
+} */
+
+#sort_time {
+  float: left;
+  position: absolute;
+  left: 80%;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  font-size: large;
+  color: #eee;
+  margin-right: 20px;
+}
+
+#sort_like {
+  float: left;
+  position: absolute;
+  left: 85%;
+  margin-left: 40px;
+  margin-top: 0; 
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  font-size: large;
+  color: #eee;
+}
+
+#sort_mytime {
+  float: left;
+  position: absolute;
+  left: 80%;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  font-size: large;
+  color: #eee;
+  margin-right: 20px;
+}
+
+#sort_mylike {
+  float: left;
+  position: absolute;
+  left: 85%;
+  margin-left: 40px;
+  margin-top: 0; 
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  font-size: large;
+  color: #eee;
+}
+
+#sort_timeNo {
+  float: left;
+  position: absolute;
+  left: 80%;
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  font-size: large;
+  color: #eee;
+  margin-right: 20px;
+}
+
+#sort_likeNo {
+  float: left;
+  position: absolute;
+  left: 85%;
+  margin-left: 40px;
+  margin-top: 0; 
+  background-color: transparent;
+  backdrop-filter: blur(20px);
+  font-size: large;
+  color: #eee;
+}
+
+
+.post{
+  width: 90%;
+  height: 25%;
+  /* background-color: aquamarine; */
+  border: solid rgba(255,255,255,5);
+  border-radius: 40px;
+  backdrop-filter: blur(10px);
+  margin:20px auto;
+}
+.main .warn{
+  font-family: 'Permanent Marker', cursive;
+  text-align: center;
+  color: #fdfdfd;
+  font-size: 2em;
+}
+
+#messages .content{
+  color: #eee;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+#messages .time{
+  color: #151212;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 15px;
+  padding: 10px;
+  padding-left: 70%;
+}
+
+#messages .name{
+
+  color: #130c0c;
+  font-family: 'Pixelify Sans', sans-serif;
+  position: absolute;
+  top:0%;
+  font-size: 25px;
+  padding-left: 10px;
+}
+
+.deletebox{
+  position: absolute;
+  top:1%;
+  left:94%;
+}
+
+.deletebox div:hover{
+  color: #eee;
+}
+
+.mydeletebox{
+  position: absolute;
+  top:1%;
+  left:94%;
+}
+
+.mydeletebox div:hover{
+  color: #eee;
+}
+
+
+.iconfont.icon-delete-filling{
+  font-size: 1.5em;
+}
+
+.likebox{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:80%;
+  left:90%;
+}
+
+.likebox p{
+  position: absolute;
+  top: -18px;
+  left: 20px;
+}
+
+.likebox div{
+  font-size: large;
+}
+
+.likebox div:hover{
+  color: #eee;
+}
+
+.editbox {
+  width: 20px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.editbox div{
+  font-size: large;
+}
+
+.editbox div:hover{
+  color: #eee;
+}
+
+.mylikebox{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  top:80%;
+  left:90%;
+}
+
+.mylikebox p{
+  position: absolute;
+  top: -18px;
+  left: 20px;
+}
+
+.mylikebox div{
+  font-size: large;
+}
+
+.mylikebox div:hover{
+  color: #eee;
+}
+
+.myeditbox {
+  width: 20px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+.myeditbox div{
+  font-size: large;
+}
+
+.myeditbox div:hover{
+  color: #eee;
+}
+.modal-content input{
+  width: 100%;
+  height: 3em;
+  font-size: 1.2em;
+}
+.modal-content button{
+  background-color: #888;
+  font-family: 'Pixelify Sans', sans-serif;
+  margin-right: 5px;
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+
+
+/* -----Login------- */
+#main .mainLogin {
+  width: 60%;
+  /* height: 1000px; */
+  /* background-color:rgb(255, 235, 205); */
+  background:url('../images/mainback.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(10px);
+  border: solid rgb(244, 249, 246);
+}
+
+.footer{
+  text-align: center;
+  display: flex;
+  padding-left: 46%;
+}
+
+.footer .page{
+  font-size: large;
+  color: #fcf7f7;
+  font-weight: 500;
+}
+
+.footer a{
+  text-decoration: none;
+}
+.footer #next{
+  color: #f9f4f4;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+.footer #prev{
+  color: #fcfcfc;
+  margin-right: 10px;
+  font-weight: 500;
+  font-size: 1.45em;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* 
+---------changename--------- */
+div#changename_wrapper{
+    top: 20%;
+    margin: auto auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    height: 200px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,5);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.main .changenamep{
+
+  height: 10%;
+  text-align: center;
+  font-size: 1.6em;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fefefe;
+}
+
+.main #changename_div{
+ 
+  text-align: center;
+  color: #f6faf8;
+}
+
+#changename_btn{
+  margin-top: 7%;
+  margin-left: 60%;
+  background: transparent;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 1em;
+  color: #eee;
+}
+
+/* ---------changepassword------ */
+#changepassw_wrapper{
+  top: 20%;
+  margin: auto auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  height: 200px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,5);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+#confirpassw_div{
+
+  margin: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fefefe;
+  font-size: 1.2em;
+}
+
+#confirpassw_btn{
+  margin-top: 5%;
+  margin-left: 58%;
+  background: transparent;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 1em;
+  color: #eee;
+}
+
+#setPassword_div{
+
+  margin: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fefefe;
+  font-size: 1.2em;
+}
+
+#changepassw_btn{
+  margin-top: 5%;
+  margin-left: 55%;
+  background: transparent;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 1em;
+  color: #eee;
+}
+
+/* -----------deleteAccount--------*/
+#deleteAccount_wrapper{
+  top: 20%;
+  margin: auto auto;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 80%;
+  height: 200px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,5);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+}
+
+#confirdelete_btn{
+  /* margin-top: 5%;
+  margin-left: 45%; */
+  position: absolute;
+  top: 42%;
+  margin-left: 30%;
+  background: transparent;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 1em;
+  color: #eee;
+}
+
+#canceldelete_btn{
+  position: absolute;
+  top: 42%;
+  margin-left: 60%;
+  background: transparent;
+  font-family: 'Pixelify Sans', sans-serif;
+  font-size: 1em;
+  color: #eee;
+}
+
+/* -------------banner------------ */
+
+#banner_changename{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.2em;
+  color: #550404;
+  font-weight: 1000;
+  font-family: 'Pixelify Sans', sans-serif;
+  
+}
+
+#banner_changepassw{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.2em;
+  color: #550404;
+  font-weight: 1000;
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+#banner_deleteAccount{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.5em;
+  color: #550404;
+  font-weight: 1000;
+  font-family: 'Pixelify Sans', sans-serif;
+}
+
+
+#banner_post{
+  margin-top: 20px;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.2em;
+  color: #550404;
+  font-weight: 1000;
+  font-family: 'Pixelify Sans', sans-serif; 
+}
+
+#banner_modal{
+  margin-top: 0;
+  width: 100%;
+  height: 12px;
+  text-align: center;
+  line-height: 50px;
+  font-size: 1.2em;
+  color: #550404;
+  font-weight: 1000;
+  font-family: 'Pixelify Sans', sans-serif; 
+}
+
+/* -------media query------- */
+
+@media screen and (max-width: 1190px) {
+  #sort_time {
+    left: 85%; 
+    margin-right: 0; 
+  }
+
+  #sort_like {
+    left: 85%; 
+    margin-left: 0; 
+    margin-top: 30px; 
+  }
+
+  #sort_mytime {
+    left: 85%; 
+    margin-right: 0; 
+  }
+
+  #sort_mylike {
+    left: 85%; 
+    margin-left: 0; 
+    margin-top: 30px; 
+  }
+
+  #sort_timeNo {
+    left: 85%; 
+    margin-right: 0; 
+  }
+
+  #sort_likeNo {
+    left: 85%; 
+    margin-left: 0; 
+    margin-top: 30px; 
+  }
+
+  .nav_main{
+    position: absolute;
+    left: 35%;
+  }
+
+  #messages{
+   margin-top:20%;
+  }
+  #header {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+
+ #messages{
+
+  margin-top: 30%;
+} 
+
+}
+
+
+@media screen and (max-width: 1000px) {
+  #nav_logo {
+    display: none;
+  }
+
+  .nav_main {
+    left: 0; 
+  }
+
+}
+
+
+@media screen and (max-width: 900px) {
+  #nav_logo {
+    display: none;
+  }
+
+  .nav_main div{
+    margin: 0;
+  }
+  #banner_changepassw{
+    font-size: 20px;
+  }
+  #banner_changename{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  #sort_time {
+    left: 80%; 
+    margin-right: 0; 
+  }
+
+  #sort_like {
+    left: 80%; 
+    margin-left: 0; 
+    margin-top: 30px; 
+  }
+  #sort_mytime {
+    left: 80%; 
+    margin-right: 0; 
+  }
+
+  #sort_mylike {
+    left: 80%; 
+    margin-left: 0; 
+    margin-top: 30px; 
+  }
+  #sort_timeNo {
+    left: 80%; 
+    margin-right: 0; 
+  }
+
+  #sort_likeNo {
+    left: 80%; 
+    margin-left: 0; 
+    margin-top: 30px; 
+  }
+  #deleteAccount_wrapper button{
+    margin-top: 15%;
+  }
+
+  #banner_changepassw{
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+
+  #banner_changename {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 720px) {
+  #sort_time {
+    left: 70%;
+    margin-right: 0; 
+  }
+
+  #sort_like {
+    left: 70%; 
+    margin-left: 0; 
+    margin-top: 30px; 
+
+  }
+  #sort_mytime {
+    left: 70%;
+    margin-right: 0; 
+  }
+
+  #sort_mylike {
+    left: 70%; 
+    margin-left: 0; 
+    margin-top: 30px; 
+
+  }
+  #sort_timeNo {
+    left: 70%;
+    margin-right: 0; 
+  }
+
+  #sort_likeNo {
+    left: 70%; 
+    margin-left: 0; 
+    margin-top: 30px; 
+
+  }
+
+  .likebox{
+    left: 80%;
+  }
+
+  .deletebox{
+    left:90%;
+  }
+  #changename_div{
+    margin-top: 15%;
+  }
+
+  #banner_changepassw{
+    font-size: 12px;
+  }
+ 
+  .main-left div{
+    font-size: 10px
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .nav_person p {
+    display: none; 
+  }
+  .nav_main div{
+    width: auto;
+    margin-left: 0; 
+  }
+  #messages{
+
+    margin-top: 40%;
+  } 
+  #changename_wrapper .changenamep{
+    font-size: 1.2em;
+  }
+
+  #banner_deleteAccount{
+    font-size: 20px;
+  }
+
+
+  #deleteAccount_wrapper button{
+    margin-top: 20%;
+  }
+  #confirdelete_btn{
+    margin-top: 20%;
+  }
+  #banner_changepassw{
+    font-size: 10px;
+  }
+  #banner_deleteAccount{
+    font-size: 10px;
+  }
+
+  #banner_changename {
+    font-size: 12px;
+  }
+
+}
+
+
+@media screen and (max-width: 450px) {
+  #sort_time {
+    left: 60%; 
+    margin-right: 0; 
+  }
+
+  #sort_like {
+    left: 60%; 
+    margin-left: 0; 
+    margin-top: 30px;
+  }
+  #sort_mytime {
+    left: 60%;
+    margin-right: 0; 
+  }
+
+  #sort_mylike {
+    left: 60%; 
+    margin-left: 0; 
+    margin-top: 30px; 
+
+  }
+  #sort_timeNo {
+    left: 60%;
+    margin-right: 0; 
+  }
+
+  #sort_likeNo {
+    left: 60%; 
+    margin-left: 0; 
+    margin-top: 30px; 
+  }
+
+  #messages .post .name{
+    font-size: medium;
+  }
+  #changename_div{
+    margin-top: 20%;
+  }
+  #changename_wrapper #changename_btn{
+    font-size: 10px;
+  }
+  #changepassw_wrapper button{
+    font-size: 10px;
+  }
+
+  #deleteAccount_wrappert button{
+    margin-top: 22%;
+  }
+
+  #banner_changepassw{
+    font-size: 10px;
+  }
+
+  #banner_changename {
+    font-size: 9px;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+
+  #changename_wrapper .changenamep{
+    font-size: 20px;
+  }
+  #changename_wrapper #changename_btn{
+    font-size: 10px;
+  }
+  #changepassw_wrapper button{
+    font-size: 10px;
+  }
+  #banner_changepassw{
+    font-size: 7px;
+  }
+
+}

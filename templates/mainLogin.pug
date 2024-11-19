@@ -1,0 +1,32 @@
+extend layout
+include footer.pug
+
+block title 
+  title World 
+block css
+  link#lightcss(href='/css/main.css', rel='stylesheet')
+block js
+  script(src='/js/mainLogin.js')
+block status
+  .nav_Log
+    .nav_person
+      p= name 
+    .nav_logout
+      a(href='/logout') Logut
+
+block content
+  div#banner_post
+  .post_form
+    input.post#post_content(type='text' name='content')
+    button#post_send Send 
+  #sort
+      button#sort_time By time
+      button#sort_like By likes
+  include loginPosts.pug
+
+block footer 
+  +footer('/')
+  
+      
+    
+      

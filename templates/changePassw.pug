@@ -1,0 +1,34 @@
+extend layout
+
+block title 
+  title Change password
+block css
+  link#lightcss(href='/css/main.css', rel='stylesheet')
+block js
+  script(src='/js/changepassword.js')
+block status
+  .nav_Log
+    .nav_person
+      p= name 
+    .nav_logout
+      a(href='/logout') Logut
+
+block left
+  include leftNav.pug
+
+block content
+ div#changepassw_wrapper
+      div#banner_changepassw
+      #confirpassw_div
+        label(for='Opassword') Old password:
+        input#Opassword(type='password', name='Opassword', required='')
+        button#confirpassw_btn Next
+      #setPassword_div(style='display: none;')
+        label(for='Npassword') New password:
+        input#Npassword(type='password', name='Npassword', required='')
+        button#changepassw_btn Submit
+
+  
+      
+    
+      

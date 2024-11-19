@@ -1,0 +1,24 @@
+#messages
+ each post in posts
+    .post(post-id= post.id)
+        p.name= post.name
+        p.time= `Modified at: ${post.modifyTime}`
+        if post.name === name
+         .deletebox 
+          .iconfont.icon-delete-filling
+        p.content= post.Content
+        .likebox
+          .iconfont.icon-ic_Like
+          p= post.liked
+        if post.name === name
+         .editbox
+          .iconfont.icon-edit
+
+    
+#myModal.modal
+  .modal-content
+    div#banner_modal
+    span#closeModalBtn.close &times;
+    input#editPost(type='text')
+    button#editOK Ok
+    button#editCancel Cancel

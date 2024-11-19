@@ -1,0 +1,13 @@
+p.warn Log in to see more posts
+#sort
+  button#sort_timeNo By time
+  button#sort_likeNo By likes
+#messages
+  each post in posts
+    .post
+      p.name= post.name
+      p.time= `Modified at: ${post.modifyTime}`
+      p.content= post.Content
+      .likebox
+        .iconfont.icon-ic_Like
+        p= post.liked

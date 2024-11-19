@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&family=Permanent+Marker&family=Pixelify+Sans:wght@400;500&display=swap');
+
+/*
+font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Pixelify Sans', sans-serif;
+*/
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    min-height: 100vh;
+    background:url('../images/headerback.JPG') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,5);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+}
+
+.maindiv{
+    width: 100%;
+    padding: 30px;
+}
+
+.maindiv #warn{
+    color: rgb(134, 35, 35);
+    text-align: center;
+}
+
+
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3em;
+}
+
+.form-input{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid black;
+    margin: 25px 0;
+}
+
+.form-input label{
+
+    position: absolute;
+    top:10%;
+    left: 2px;
+    transform: translateY(-50%);
+    top:-5px;
+    font-size: 1em;
+    font-weight: 500;
+    /* pointer-events: none; */
+}
+
+.form-input input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+/* -------login-------- */
+#Lbtn{
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #162938;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+#Lbtn:hover{
+    background-color: rgb(160, 203, 240);
+    color: black;
+}
+
+.form-register{
+    font-size: 1em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.form-register a{
+    text-decoration: none;
+    color: black;
+}
+
+.form-register a:hover{
+    text-decoration: underline;
+}
+
+/* --- Register---- */
+#Rbtn{
+    width: 100%;
+    height: 30px;
+    border-radius: 7px;
+    background-color: #162938;
+    color: white;
+    border: none;
+    outline: none;
+    font-size: 1em;
+}
+
+#Rbtn:hover{
+    background-color: rgb(155, 194, 227);
+    color: black;
+}
+
+.form-login{
+    font-size: 1em;
+    text-align: center;
+    font-weight: 500;
+}
+
+.form-login a{
+    text-decoration: none;
+    color: black;
+}
+
+.form-login a:hover{
+    text-decoration: underline;
+}
+
+#banner{
+    position: absolute;
+    top:6%;
+    color: #162938;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+

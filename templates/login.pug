@@ -1,0 +1,16 @@
+extend loginAndRegister.pug 
+
+block title
+  title Login
+block js  
+  script(src='/js/login.js')
+block p
+  div#banner
+block h1 
+  h1 Login
+block instruction
+   .form-register
+    button#Lbtn(type='submit') Log In
+    p
+     | Don&apos;t have an acoount?
+     a.register-link(href='/register')  Register

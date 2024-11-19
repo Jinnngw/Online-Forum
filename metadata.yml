@@ -1,0 +1,12 @@
+---
+:id: 221012871
+:submitters:
+- :name: Jing Wang
+  :email: wan01205@umn.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2023-12-19 01:03:23.016030000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2023-12-18 17:03:23.016030000 Z
+:status: processed
+:score: 97.0

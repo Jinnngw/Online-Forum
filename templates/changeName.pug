@@ -1,0 +1,31 @@
+extend layout
+
+block title 
+  title Change name
+block css
+  link#lightcss(href='/css/main.css', rel='stylesheet')
+block js
+  script(src='/js/changename.js')
+block status
+  .nav_Log
+    .nav_person
+      p= name 
+    .nav_logout
+      a(href='/logout') Logut
+
+block left
+  include leftNav.pug
+
+block content
+ div#changename_wrapper
+      div#banner_changename 
+      .changenamep Current name is #{name}
+      #changename_div
+        label(for='name') New name:
+        input#name(type='text', name='name', required='')
+      button#changename_btn Submit
+
+  
+      
+    
+      

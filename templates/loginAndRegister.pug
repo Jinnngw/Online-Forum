@@ -1,0 +1,29 @@
+doctype html
+head
+  meta(charset='utf-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1')
+  block title
+  link(rel='stylesheet', href='/css/loginAndR.css')
+  block js
+
+body
+   block p
+   .wrapper
+      .maindiv
+        block h1 
+        p#warn username is case sensitive.
+        .form
+          .form-input
+            span.icon
+            label(for='username') Username:
+            input#username(type='username', name='username', required='')
+          .form-input
+            span.icon
+            label(for='password') Password:
+            input#password(type='password', name='password', required='')
+          block instruction
+
+        
+    
+        
+

@@ -1,0 +1,31 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible', content='IE=edge')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  block title 
+  block css
+  link(rel='stylesheet', href='/font/font_/iconfont.css')
+  block js
+  script(src='/js/toggleStyle.js')
+body
+    block header
+    #nav
+        span#nav_logo.iconfont.icon-diqiu
+        .nav_main
+            .mainpagebox
+                .iconfont.icon-zhuye
+            .personalbox
+                .iconfont.icon-gerenzhongxin
+            .darkbox#darkbox
+                #dark_btn.iconfont.icon-Clear-nightColorOff
+        block status
+    #main
+        .main-left
+          block left
+        .main
+          block content
+          block footer
+        
+        .main-right
+

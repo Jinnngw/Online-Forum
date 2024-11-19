@@ -1,0 +1,18 @@
+extend loginAndRegister.pug 
+
+block title
+  title Register
+block js  
+  script(src='/js/register.js')
+block p
+  div#banner
+block h1 
+  h1 Register
+
+block instruction
+   .form-login
+    button#Rbtn Register
+    p
+     | Already have an account?
+     a.login-link(href='/login')  Login
+    

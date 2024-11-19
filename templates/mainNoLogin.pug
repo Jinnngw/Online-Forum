@@ -1,0 +1,27 @@
+extend layout
+
+block title 
+  title World 
+block css
+  link#lightcss(href='/css/main.css', rel='stylesheet')
+block js
+  script(src='/js/mainNoLogin.js')
+block header
+  #header
+      //this video from WWW.SINA.COM
+      video(loop='loop', autoplay='autoplay', muted='muted', src='https://a.sinaimg.cn/mintra/pic/2112130543/weibo_login.mp4', poster='https://a.sinaimg.cn/mintra/pic/2112130400/18weibo_login.png') Sorry, your browser does not support embedded videos
+      span#header_logo.iconfont.icon-diqiu
+      h1 Welcome to the World
+block status
+  .nav_noLog
+       .nav_login
+         a(href='/login') Login
+       .nav_register
+         a(href='register') Register
+
+block content 
+  include noLoginPosts.pug
+
+      
+    
+      
